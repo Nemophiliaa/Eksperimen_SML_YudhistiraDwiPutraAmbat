@@ -1,6 +1,7 @@
 name: Automate Preprocessing
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'preprocessing/automate.py'
