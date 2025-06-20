@@ -27,3 +27,9 @@ jobs:
       - name: Run automate.py
         run: |
           python preprocessing/automate.py
+
+      - name: Upload Processed CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: preprocessed-data
+          path: preprocessing/HeartDiagnosa_preprocessing.csv
