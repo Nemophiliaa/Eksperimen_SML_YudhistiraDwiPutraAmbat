@@ -1,0 +1,36 @@
+# Eksplorasi Dataset - Heart Disease Prediction
+# Kaggle : https://www.kaggle.com/code/utsabidangol/heart-disease-prediction-using-machine-learning
+# Nama: Yudhistira Dwi Putra Ambat
+# Repository Github : https://github.com/Nemophiliaa/Eksperimen_SML_YudhistiraDwiPutraAmbat
+
+## Dataset deskripsi
+- Dataset ini digunakan untuk membuat
+
+## 2. Jumlah Data
+- Jumlah Baris: 297
+- Jumlah Kolom: 13 fitur + 1 label
+
+## 3. Tipe Data Tiap Kolom
+- age: int
+- sex: int (0 = female, 1 = male)
+- cp: int (chest pain type)
+- trestbps: int (resting blood pressure)
+- chol: int (serum cholesterol)
+- fbs: int (fasting blood sugar)
+- restecg: int (resting electrocardiographic results)
+- thalach: int (maximum heart rate)
+- exang: int (exercise-induced angina)
+- oldpeak: float (ST depression)
+- slope: int (slope of the peak exercise ST segment)
+- ca: int (number of major vessels colored)
+- thal: int (thalassemia)
+- target: int (0 = no disease, 1 = disease)
+
+## 4. Statistik Ringkas
+- Usia (age): Rata-rata = 54.37, Min = 29, Max = 77
+- Kolesterol (chol): Rata-rata = 246.26, Min = 126, Max = 564
+- Detak jantung maksimum (thalach): Rata-rata = 149.65, Min = 71, Max = 202
+
+## 6. Distribusi Label
+- Tidak sakit jantung (0): 160 data
+- Sakit jantung (1): 137 data
